@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>My Chat App</title>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' type='text/css' href='index.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <script src='http://localhost:3000/socket.io/socket.io.js' defer></script> 
+    <script defer src='script.js'></script>
+</head>
+<body>
+    <section id='introContent' class='topMargin'>
+        <h1>Node Chat</h1>
+        <button id='newSessionBtn'><a href=''>New Session</a></button>
+        <button id='endSessionBtn'><a href=''>End Session</a></button>
+    </section>
+    
+    <form id='chatForm'>
+        <input id='chatInput'>
+        <input type='submit' id='submitBtn'>
+    </form>
+    <section id='messagesArea'></section>
+
+    <section id='modal'>
+        <label type='text'>Enter your name: </label><input id='inputField' type='text'>
+        <label type='text'>Select chat color: </label>
+        <input type='color' id='colorPicker' value='#ff0080'>
+        <button id='modalSubmit'><a href=''>Start Chat</a></button>
+    </section>
+</body>
+</html>

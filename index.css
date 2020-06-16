@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #DCD6F7;
+}
+#introContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #0E0004;
+}
+#newSessionBtn {
+    font-size: 27px;
+    padding: 7px;
+    border-radius: 2px;
+    margin: 0;
+}
+#endSessionBtn {
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+}
+#chatInput {
+    width: 500px;
+    height: 80px;
+}
+#submitBtn {
+    height: 80px;
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+#endSessionBtn,
+#chatForm {
+    display: none;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+    background-color: white;
+    padding: 100px;
+    text-align: left;
+}
+
+label {
+    color: black;
+    font-size: 22px;
+}
+.topMargin {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#messagesArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.messageBlock {
+    max-width: 570px;
+    width: 100%;
+    margin-top: 10px;
+ 
+    font-size: 20px;
+}
