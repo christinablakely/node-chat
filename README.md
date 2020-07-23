@@ -1,2 +1,5 @@
 # Node-Chat-App
-npm run devStart to start server
+```
+npm run devStart 
+```
+to start server
